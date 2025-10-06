@@ -1,0 +1,41 @@
+{
+  "name": "screeps-rust-bot",
+  "version": "0.0.1",
+  "description": "My Screeps bot written in Rust",
+  "private": true,
+  "scripts": {
+    "deploy": "node js_tools/deploy.js"
+  },
+  "keywords": [
+    "screeps",
+    "rust",
+    "screeps-bot",
+    "screeps-ai",
+    "screeps-rust-bot"
+  ],
+  "author": {
+    "name": "lovezhangchuangxin",
+    "email": "2911331070@qq.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "packageManager": "pnpm@10.14.0",
+  "dependencies": {
+    "fastestsmallesttextencoderdecoder-encodeinto": "^1.0.22",
+    "fs-extra": "^11.3.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.25.3",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.21.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "screeps-api": "^1.16.0",
+    "yamljs": "^0.3.0",
+    "yargs": "^17.7.2"
+  }
+}
