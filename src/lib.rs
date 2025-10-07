@@ -12,6 +12,7 @@ use crate::core::{Ayaka, AyakaOptions, LifeCycle};
 pub mod core;
 pub mod memory;
 pub mod modules;
+pub mod roles;
 pub mod utils;
 
 thread_local! {
